@@ -9,7 +9,7 @@ About
 
 ![alt text](https://github.com/ZhipengCai/ZhipengCai.github.io/blob/master/papers/ICCV19.png " ")
 
-Consensus maximization is an effective tool for robust fitting in computer vision. A* Tree Search is one of the most efficient method for globally optimal consensus maximization. In this work, we propose two new techniques that significantly accelerate A* Tree Search, making it capable of handling problems with much larger number of outliers.
+Consensus maximization is an effective tool for robust fitting in computer vision. A* Tree Search is one of the most efficient methods for globally optimal consensus maximization. In this work, we propose two new techniques that significantly accelerate A* Tree Search, making it capable of handling problems with much larger number of outliers.
 
 This demo is free for non-commercial academic use. Any commercial use is strictly 
 prohibited without the authors' consent. Please acknowledge the authors by citing:
