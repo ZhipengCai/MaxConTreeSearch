@@ -66,7 +66,7 @@ List of addressed problems in the demo
 List of included methods
 ------------------------
 
-**Previous A* tree search variants**
+**Previous A\* tree search variants**
 
 1. [A* tree search (Chin et al. CVPR'15)](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Chin_Efficient_Globally_Optimal_2015_CVPR_paper.pdf)
 
