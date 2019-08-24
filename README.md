@@ -1,4 +1,4 @@
-# Demo---Consensus-maximization-tree-search-revisited (under construction)
+# Demo---Consensus-maximization-tree-search-revisited 
 
 A significantly accelerated tree search method for globally optimal consensus maximization. [(Paper link)](https://arxiv.org/abs/1908.02021)
 
@@ -58,7 +58,7 @@ Linear problem:
 
 1. Linearized Fundamental matrix estimation (ignoring the rank-2 constraint)
 
-Nonlinear problem:
+Nonlinear problem (the code of this part can handle problems with pseudo-convex residuals (see the example forms in the paper) ):
 
 2. Homography estimation
 
