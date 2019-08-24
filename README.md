@@ -54,11 +54,11 @@ Please refer to "demo.m" file for detailed code explanations.
 List of addressed problems in the demo
 -----------------------------------------
 
-**Linear**:
+Linear problem:
 
 1. Linearized Fundamental matrix estimation (ignoring the rank-2 constraint)
 
-**Nonlinear**:
+Nonlinear problem:
 
 2. Homography estimation
 
@@ -66,13 +66,13 @@ List of addressed problems in the demo
 List of included methods
 ------------------------
 
-**Previous A\* tree search variants**
+Previous A* tree search variants:
 
 1. [A* tree search (Chin et al. CVPR'15)](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Chin_Efficient_Globally_Optimal_2015_CVPR_paper.pdf)
 
 2. [A* tree search + True Outlier Detection (TOD) for branch pruning (Chin et al. TPAMI'17)](https://ieeexplore.ieee.org/document/7755788)
 
-**Variants with our new techniques**
+Variants with our new techniques:
 
 3. A* tree search + Non-Adjacent Path Avoidance (NAPA)
 
