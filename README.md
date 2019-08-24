@@ -1,10 +1,10 @@
-# Demo---Consensus-maximization-tree-search-revisited
+# Demo---Consensus-maximization-tree-search-revisited (under construction)
 
 A significantly accelerated tree search method for globally optimal consensus maximization. 
 
 Published in ICCV 2019 as **oral** presentations.
 
-[Paper link coming soon...]
+[Paper link](https://arxiv.org/abs/1908.02021)
 
 ![alt text](https://github.com/ZhipengCai/ZhipengCai.github.io/blob/master/papers/ICCV19.png " ")
 
@@ -17,10 +17,10 @@ The demo is free for non-commercial academic use. Any commercial use is strictly
 prohibited without the authors' consent. Please acknowledge the authors by citing:
 
 ```
-@inproceedings{cai2018deterministic,
+@article{cai2019consensus,
   title={Consensus Maximization Tree Search Revisited},
   author={Cai, Zhipeng and Chin, Tat-Jun and Koltun, Vladlen},
-  booktitle={International Conference on Computer Vision},
+  journal={arXiv preprint arXiv:1908.02021},
   year={2019}
 }
 ```
@@ -36,4 +36,3 @@ Email: czptc2h@gmail.com
 
 Do not hesitate to contact the authors if you have any question or find any bugs :)
 
-Coming soon.....
