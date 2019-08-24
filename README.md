@@ -38,7 +38,7 @@ Do not hesitate to contact the authors if you have any question or find any bugs
 Getting Started
 ===============
 
-The demo is implemented using MATLAB 2017a and has been tested on Linux (Ubuntu 14.04 LTS 64-bit). 
+The demo is implemented using MATLAB 2018b and has been tested on Ubuntu 14.04 LTS 64-bit. 
 
 -------------
 Run the demo
