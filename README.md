@@ -11,7 +11,7 @@ About
 
 Consensus maximization is an effective tool for robust fitting in computer vision. A* Tree Search is one of the most efficient method for globally optimal consensus maximization. In this work, we propose two new techniques that significantly accelerate A* Tree Search, making it capable of handling problems with much larger number of outliers.
 
-The demo is free for non-commercial academic use. Any commercial use is strictly 
+This demo is free for non-commercial academic use. Any commercial use is strictly 
 prohibited without the authors' consent. Please acknowledge the authors by citing:
 
 ```
@@ -38,7 +38,7 @@ Do not hesitate to contact the authors if you have any question or find any bugs
 Getting Started
 ===============
 
-The demo is implemented using MATLAB 2018b and has been tested on Ubuntu 14.04 LTS 64-bit. 
+This demo is implemented using MATLAB 2018b and has been tested on Ubuntu 14.04 LTS 64-bit. 
 
 -------------
 Run the demo
