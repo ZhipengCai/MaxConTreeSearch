@@ -43,7 +43,14 @@ for i=1:length(node.b)
         
         if vioSize < numel(child.v)
             dictS.put(sprintf('%4ld', child.v), 1);
-            continue;
+%             continue;
+            % bug removed, only use NAPA for repetition check
+            child.v = sort(vioReal');
+            entry = dictS.get(sprintf('%4ld', child.v));
+            if numel(entry)
+                continue;
+            end
+            dictS.put(sprintf('%4ld', child.v), 1);
         end
     end
     

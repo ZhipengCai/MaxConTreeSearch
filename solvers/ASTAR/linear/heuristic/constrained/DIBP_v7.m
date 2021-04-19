@@ -56,8 +56,16 @@ for i=1:length(node.b)
     vioSize = numel(vioReal);
     if vioSize < numel(child.v)
         dictS.put(sprintf('%4ld', child.v), 1);
-        NONonAdjacent = NONonAdjacent+1;
-        continue;
+        % bug fixed, only use NAPA for repetition check
+        child.v = sort(vioReal');
+        entry = dictS.get(sprintf('%4ld', child.v));
+        if numel(entry)
+            NONonAdjacent = NONonAdjacent+1;
+            continue;
+        end
+        dictS.put(sprintf('%4ld', child.v), 1);
+%         NONonAdjacent = NONonAdjacent+1;
+%         continue;
     end
     
     %%%%%%%%%%%%%%%% repetition check ends, and results reused later %%%%%%%%%%%%%

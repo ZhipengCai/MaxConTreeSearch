@@ -29,7 +29,7 @@ close all;
 %reduce the time limit to 20s/200s to make the demo finish quickly, u can adjust
 %the time limit if u want.
 timeLimitFund = 20; 
-timeLimitHomo = 200;
+timeLimitHomo = 1000;
 selectedMethod = [5,4,3,2,1];
 
 warning('off', 'all');
@@ -61,7 +61,7 @@ for i = 1:numel(dataList)
         if idxMethod == 5
             outl_DIBP = outl;
         end
-        disp([methodList{idxMethod} ' finished--runtime = ' num2str(runtime) ', NUN = ' num2str(UniqueNodeNumber), ', NOBP = ' num2str(NODIBP), ', levelMax = ' num2str(levelMax)]);
+        disp([methodList{idxMethod} ' finished--runtime = ' num2str(runtime) ', numOut = ' num2str(numel(outl)) ', NUN = ' num2str(UniqueNodeNumber), ', NOBP = ' num2str(NODIBP), ', levelMax = ' num2str(levelMax)]);
         disp('--------------------------------------------------------');
     end
     
@@ -104,7 +104,7 @@ for i = 1:numel(dataList)
         if idxMethod == 5
             outl_DIBP = outl;
         end
-        disp([methodList{idxMethod} ' finished--runtime = ' num2str(runtime) ', NUN = ' num2str(UniqueNodeNumber), ', NOBP = ' num2str(NODIBP), ', levelMax = ' num2str(levelMax)]);
+        disp([methodList{idxMethod} ' finished--runtime = ' num2str(runtime) ', numOut = ' num2str(numel(outl)) ', NUN = ' num2str(UniqueNodeNumber), ', NOBP = ' num2str(NODIBP), ', levelMax = ' num2str(levelMax)]);
         disp('--------------------------------------------------------');
     end
     

@@ -65,8 +65,18 @@ for i=1:length(node.b)
     
     if vioSize < numel(child.v)
         dictS.put(sprintf('%4ld', child.v), 1);
-        NONonAdjacent = NONonAdjacent+1;
-        continue;
+        % bug fixed, only use NAPA for repetition check
+%         disp(size(child.v))
+%         disp(size(vioReal'))
+        child.v = sort(vioReal);
+        entry = dictS.get(sprintf('%4ld', child.v));
+        if numel(entry)
+            NONonAdjacent = NONonAdjacent+1;
+            continue;
+        end
+        dictS.put(sprintf('%4ld', child.v), 1);
+%         NONonAdjacent = NONonAdjacent+1;
+%         continue;
     end
     
     childPoolTmp{idc(i)} = child;
